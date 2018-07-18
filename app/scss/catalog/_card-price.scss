@@ -1,0 +1,23 @@
+.card-price {
+  display: block;
+  padding: 5px 0 0;
+  line-height: 12px;
+  text-transform: uppercase;
+
+  &__old {
+    text-decoration: line-through;
+    color: #000;
+    font-size: 12px;
+    font-family: $ff-a;
+  }
+
+  &__new {
+    color: #000;
+    font-size: 12px;
+    font-family: $ff-a;
+
+    &_red {
+      color: #fe0123;
+    }
+  }
+}

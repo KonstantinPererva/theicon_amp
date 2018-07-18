@@ -1,0 +1,16 @@
+.button-mob {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 12px 50px;
+  background: #000;
+  border: 1px solid #bbb;
+
+  &__text {
+    font-size: 10px;
+    color: #fff;
+    font-family: $ff-a;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+  }
+}

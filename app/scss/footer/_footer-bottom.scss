@@ -1,0 +1,35 @@
+.footer-bottom {
+  display: flex;
+  padding: 30px 0 20px;
+
+  &__block {
+    position: relative;
+    width: 50%;
+    flex-shrink: 0;
+    padding: 0 15px;
+
+    @media screen and (min-width: 768px) {
+      padding: 0 0 0 40px;
+    }
+  }
+
+  &__link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    @media screen and (min-width: 768px) {
+      left: 25px;
+    }
+  }
+
+  & .company-link {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .5px;
+    padding: 10px 15px;
+    color: #000;
+  }
+}

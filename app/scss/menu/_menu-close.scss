@@ -1,0 +1,15 @@
+.menu-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 59px;
+  height: 59px;
+  overflow: hidden;
+
+  &__ico {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+  }
+}

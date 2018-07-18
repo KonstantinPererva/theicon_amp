@@ -1,0 +1,68 @@
+.card {
+
+  &__wrap-img {
+    position: relative;
+    display: block;
+    outline: none;
+    text-decoration: none;
+
+    &_empty {
+
+      &:before {
+        content: 'Просмотреть все →';
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-family: $ff-a;
+        line-height: 40px;
+        font-weight: 600;
+        z-index: 99;
+
+        @media screen and (min-width: 360px) {
+          font-size: 18px;
+        }
+
+        @media screen and (min-width: 400px) {
+          font-size: 20px;
+        }
+
+        @media screen and (min-width: 768px) {
+          font-size: 22px;
+          line-height: 50px;
+        }
+      }
+    }
+  }
+
+  &__title {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    line-height: 12px;
+    font-size: 12px;
+    font-family: $ff-a;
+    text-transform: uppercase;
+    padding: 10px 0 5px;
+    letter-spacing: 1px
+  }
+
+  &__brand {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    line-height: 12px;
+    font-size: 12px;
+    font-family: $ff-a;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 5px 0;
+    letter-spacing: 1px
+  }
+}

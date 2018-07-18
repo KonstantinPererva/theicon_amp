@@ -1,0 +1,32 @@
+.footer-menu {
+
+  &-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    &__item {
+
+    }
+  }
+
+  &-link {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-family: $ff-a;
+    padding: 4px 0;
+
+    &__text {
+      display: block;
+      line-height: 16px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+
+      @media screen and (min-width: 768px) {
+        font-size: 14px;
+      }
+    }
+  }
+}
