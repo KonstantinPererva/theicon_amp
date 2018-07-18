@@ -21,9 +21,5 @@
 amp-sidebar.sidebar1 {
   top: 0;
   background: #fff;
-  width: 100vw;
-
-  @media screen and (min-width: 768px) {
-    width: 360px;
-  }
+  width: 360px;
 }
